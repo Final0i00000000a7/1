@@ -120,7 +120,7 @@ function loop(ms) {
   if (typeof game.leastBoost=="undefined") game.leastBoost=Infinity
   game.collapseTime += ms/1000
   game.base = 9
-  game.ord = new ExpantaNum(7.37e33)
+  game.ord = new ExpantaNum(1.62e40)
   if (game.pupgrades.includes(11)) game.base = 80
   if (game.pupgrades.includes(12)) game.base = 72
   if (game.pupgrades.includes(15)) game.base = 64
